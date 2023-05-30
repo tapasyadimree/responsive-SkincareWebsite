@@ -1,0 +1,94 @@
+body{
+    background-image: url(./images/background.jpg);
+}
+
+.logo{
+    display: inline-block;
+    height: 8rem;
+    width: 10rem;
+}
+
+h1{ 
+    position: absolute;
+    display: inline-block;
+    font-size: 3rem;
+    color: seagreen;
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+    font-family: 'Righteous', cursive;
+}
+
+h2{
+    font-size: 4rem;
+    margin-top: 0px;
+}
+
+.help,.skin{
+    color: seagreen;
+}
+
+.card {
+  width: 45%;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.card > img{
+    height: 200px;
+    float: left;
+    margin-right: 50px;
+}
+
+footer{
+    clear: both;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: seagreen;
+    color: white;
+    text-align: center;
+}
+
+@media (max-width: 680px){
+    .logo{
+        display: inline-block;
+        height: 5rem;
+        width: 6rem;
+    } 
+
+    h1{ 
+        position: absolute;
+        display: inline-block;
+        font-size: 1.5rem;
+        color: seagreen;
+        margin-left: 0.5rem;
+        margin-top: 1.5rem;
+        font-family: 'Righteous', cursive;
+    }
+
+    h2{
+        font-size: 2rem;
+        margin-top: 0px;
+    }
+
+    .card {
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+        text-align: justify;
+      }
+    
+      .card img {
+        margin-bottom: 10px;
+        width: 100%;
+        display: block;
+        object-fit: cover;
+      }
+}
